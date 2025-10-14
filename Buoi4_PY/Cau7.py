@@ -1,0 +1,10 @@
+from math import sqrt
+print("Tính và xuất độ dài đoạn AB")
+print("Nhập tọa độ điểm A:")
+xA=float(input("Nhập xA: "))
+yA=float(input("Nhập yA: "))
+print("Nhập tọa độ điểm B:")
+xB=float(input("Nhập xB: "))
+yB=float(input("Nhập yB: "))
+dAB=sqrt((xB-xA)**2+(yB-yA)**2)
+print("Độ dài đoạn AB là: ",dAB)    
